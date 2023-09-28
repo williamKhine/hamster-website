@@ -1,24 +1,24 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FFF3E0;
 }
 
-nav {
+.nav-bar{
     display: flex;
     justify-content: center;
     background-color: #444;
 }
 
-nav a {
+.nav-link{
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+.nav-link:hover {
     color: #ff7b00;
 }
 
@@ -31,24 +31,25 @@ nav a:hover {
     border-radius: 5px;
 }
 
-figure {
+.figure-section {
     text-align: center;
 }
 
-figure img {
+.image {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
 
-figcaption {
+.image-caption {
     margin-top: 10px;
     font-style: italic;
+    text-align: center;
     color: #777;
 }
 
-footer {
+.footer{
     display: flex;
     justify-content: center;
     background-color: #333;
@@ -56,47 +57,17 @@ footer {
     padding: 10px 0;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
+.section-title{
     color: #FF7C36;
 }
 
-article p {
-    line-height: 1.0;
+.content-paragraph {
+    line-height: 1.5;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: 20px;
-}
-
-ul li {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 10px; 
-}
-
-details {
+.breed-details{
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
 }
-
-details summary {
-    cursor: pointer;
-    font-weight: bold;
-}
-
-details ol {
-    margin-left: 20px;
-}
-
-main > section:not(:last-child) {
-    margin-bottom: 40px;
-}
-
