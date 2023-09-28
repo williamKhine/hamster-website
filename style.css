@@ -64,6 +64,20 @@
     border-radius: 5px;
 }
 
+.enclosure-details{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.diet-details{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .content-list,
 .sub-list {
     list-style-type: none;
