@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "mooli";
+    src: url(./fonts/Mooli/Mooli-Regular.ttf);
+}
+@font-face {
+    font-family: "dela-gothic-one";
+    src: url(./fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
