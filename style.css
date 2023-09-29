@@ -3,24 +3,24 @@
     src: url(./fonts/Mooli/Mooli-Regular.ttf);
 }
 @font-face {
-    font-family: "dela-gothic-one";
-    src: url(./fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+    font-family: "young_serif";
+    src: url(./fonts/Young_Serif/YoungSerif-Regular.ttf);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "mooli";
     margin: 0;
     padding: 0;
     background-color: #FFF4DF;
-  }
+}
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: center;
     background-color: #444;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -31,7 +31,7 @@ body {
     color: #ff7b00;
 }
 
-.first-image{
+.first-image {
     float: right;
     margin-bottom: 10px;
     max-width: 100%;
@@ -66,33 +66,34 @@ body {
     color: #777;
 }
 
-.image:hover +.image-caption {
+.image:hover + .image-caption {
     visibility: visible;
 }
 
-.section-title{
+.section-title {
     color: #FF7C36;
+    font-family: "young_serif";
 }
 
 .content-paragraph {
     line-height: 1.5;
 }
 
-.breed-details{
+.breed-details {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
 }
 
-.enclosure-details{
+.enclosure-details {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
 }
 
-.diet-details{
+.diet-details {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 10px;
@@ -103,7 +104,7 @@ body {
 .sub-list {
     list-style-type: none;
     margin-left: 0;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .content-list li {
@@ -116,7 +117,7 @@ body {
 
 .sub-list li {
     margin-bottom: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 1.5;
     color: black;
     font-style: normal;
@@ -126,13 +127,15 @@ body {
     padding: 20px;
 }
 
-#breeds, #enclosure, #diet{
+#breeds,
+#enclosure,
+#diet {
     background-color: #F7F7F7;
     border: 1px solid #DDD;
     padding: 20px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     background-color: #444;
