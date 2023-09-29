@@ -22,6 +22,13 @@ body {
     color: #ff7b00;
 }
 
+.first-image{
+    float: right;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: 1000px;
     margin: 20px auto;
