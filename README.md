@@ -1,0 +1,1 @@
+Welcome to my Hamster Care website! This website is designed to provide you with essential information about caring for your pet hamster. Whether you're a new hamster owner or looking to improve your hamster's well-being, you'll find valuable insights and tips on hamster awareness, different breeds, proper enclosure setup, and a balanced diet.
