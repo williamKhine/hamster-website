@@ -40,12 +40,19 @@ body {
     z-index: 1;
 }
 
+.hamster-caption{
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+    color: #FF7C36;
+}
+
 .speech-container{
     display: none;
     clear: both;
     float: right;
-    margin-top: -400px;
-    margin-right: -200px;
+    margin-top: -470px;
+    margin-right: -170px;
     z-index: 2;
 }
 
