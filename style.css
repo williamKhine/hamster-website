@@ -31,13 +31,13 @@ body {
     color: #ff7b00;
 }
 
-
 .scared-hamster {
     float: right;
     margin-right: 20px;
     max-width: 100%;
     height: auto;
     z-index: 1;
+    align-items: center;
 }
 
 .hamster-caption{
@@ -47,18 +47,6 @@ body {
     color: #FF7C36;
 }
 
-.speech-container{
-    display: none;
-    clear: both;
-    float: right;
-    margin-top: -470px;
-    margin-right: -170px;
-    z-index: 2;
-}
-
-.scared-hamster:hover + .speech-container{
-    display: block;
-}
 
 .container {
     max-width: 1000px;
@@ -166,24 +154,6 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .nav-link {
-        padding: 10px;
-    }
-    .content-paragraph {
-        font-size: 16px;
-    }
-    .section-title {
-        font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .nav-link {
-        padding: 15px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .container {
         padding: 10px;
     }
@@ -194,6 +164,31 @@ body {
     .nav-link {
         margin: 5px 0;
         text-align: center;
-        padding: 10px 20px; 
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        margin: 5px 0;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+    .nav-link {
+        padding: 20px 30px;
     }
 }
