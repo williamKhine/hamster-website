@@ -30,6 +30,13 @@ body {
 .nav-link:hover {
     color: #ff7b00;
 }
+.hamburger-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+}
 
 .scared-hamster {
     float: right;
@@ -162,9 +169,13 @@ body {
         align-items: center;
     }
     .nav-link {
+        display: none;
         margin: 5px 0;
         text-align: center;
         padding: 10px 20px;
+    }
+    .hamburger-menu {
+        display: block;
     }
 }
 
@@ -178,11 +189,14 @@ body {
         align-items: center;
     }
     .nav-link {
+        display: none;
         margin: 5px 0;
         text-align: center;
         padding: 10px 20px;
     }
-
+    .hamburger-menu {
+        display: block;
+    }
 }
 
 /*Display for laptop devices*/
@@ -194,3 +208,12 @@ body {
         padding: 20px 30px;
     }
 }
+
+.appear {
+    display: block;
+}
+.disappear {
+    display: none;
+}
+```
+```
